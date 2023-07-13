@@ -1,0 +1,8 @@
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe.config
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.pdb
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.AssemblyReference.cache
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.SuggestedBindingRedirects.cache
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.CoreCompileInputs.cache
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.exe
+F:\Mphasis training stuff\Dot netTraining\DAY- 4\Day 4 Learning\Array\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.pdb
