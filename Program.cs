@@ -94,61 +94,84 @@ namespace ConsoleAppArray
             //-----------------Practice Problem-----------------------------------
 
             // Create a rectangular array to store marks
-            int[,] studMarks = new int[4, 5];
+            //int[,] studMarks = new int[4, 5];
 
-            // Input marks for each student and semester
-            for (int i = 0; i < 4; i++)
+            //// Input marks for each student and semester
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    Console.WriteLine("Enter details for Student " + (i + 1));
+
+            //    Console.Write("Enter Roll No: ");
+            //    int rollNo = int.Parse(Console.ReadLine());
+
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        int marks;
+            //        bool isValidInput;
+
+            //        do
+            //        {
+            //            Console.Write("Enter marks for Semester " + (j + 1) + ": ");
+            //            isValidInput = int.TryParse(Console.ReadLine(), out marks);
+
+            //            if (!isValidInput)
+            //            {
+            //                Console.WriteLine("Invalid input! Please enter a valid integer value.");
+            //            }
+
+            //        } while (!isValidInput);
+
+            //        studMarks[i, j] = marks;
+            //    }
+
+            //    studMarks[i, 4] = rollNo; // Store roll number in the last column
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine("RollNo\tSem1\tSem2\tSem3\tSem4\tTotal");
+            //Console.WriteLine("----------------------------------------------");
+
+            //// Calculate and print the details
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    int totalMarks = 0;
+
+            //    Console.Write(studMarks[i, 4] + "\t"); // Print roll number from the last column
+
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        Console.Write(studMarks[i, j] + "\t");
+            //        totalMarks += studMarks[i, j];
+            //    }
+
+            //    Console.WriteLine(totalMarks);
+            //}
+
+            //Console.ReadLine();
+
+            //----------------------Jagged Array----------------------------
+
+            // Create a jagged Array
+
+            int[][] myJArray = new int[3][];
+
+            // Initialize the inner arrays
+            myJArray[0] = new int[3] { 1, 2, 3 };
+            myJArray[1] = new int[5] { 4, 5,7,9,12 };
+            myJArray[2] = new int[2] { 6, 7 };
+
+            // Access and print the elements
+            Console.WriteLine("Elements of the jagged array:");
+            for (int i = 0; i < myJArray.Length; i++)
             {
-                Console.WriteLine("Enter details for Student " + (i + 1));
-
-                Console.Write("Enter Roll No: ");
-                int rollNo = int.Parse(Console.ReadLine());
-
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < myJArray[i].Length; j++)
                 {
-                    int marks;
-                    bool isValidInput;
-
-                    do
-                    {
-                        Console.Write("Enter marks for Semester " + (j + 1) + ": ");
-                        isValidInput = int.TryParse(Console.ReadLine(), out marks);
-
-                        if (!isValidInput)
-                        {
-                            Console.WriteLine("Invalid input! Please enter a valid integer value.");
-                        }
-
-                    } while (!isValidInput);
-
-                    studMarks[i, j] = marks;
+                    Console.Write(myJArray[i][j] + " \t");
                 }
-
-                studMarks[i, 4] = rollNo; // Store roll number in the last column
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("RollNo\tSem1\tSem2\tSem3\tSem4\tTotal");
-            Console.WriteLine("----------------------------------------------");
-
-            // Calculate and print the details
-            for (int i = 0; i < 4; i++)
-            {
-                int totalMarks = 0;
-
-                Console.Write(studMarks[i, 4] + "\t"); // Print roll number from the last column
-
-                for (int j = 0; j < 4; j++)
-                {
-                    Console.Write(studMarks[i, j] + "\t");
-                    totalMarks += studMarks[i, j];
-                }
-
-                Console.WriteLine(totalMarks);
+                Console.WriteLine("\n");
             }
 
             Console.ReadLine();
-
         }
 
     }
